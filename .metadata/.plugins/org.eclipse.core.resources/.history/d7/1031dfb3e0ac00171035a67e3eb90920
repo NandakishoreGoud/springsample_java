@@ -1,0 +1,13 @@
+package com.cts.servletdemo;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+/**
+ * Servlet implementation class XmlServlet
+ */
+@WebServlet("/XmlServlet")
+public class XmlServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+}

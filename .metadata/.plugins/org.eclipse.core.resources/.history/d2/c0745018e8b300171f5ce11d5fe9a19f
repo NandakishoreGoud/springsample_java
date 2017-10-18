@@ -1,0 +1,8 @@
+package com.pluralsite.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class HelloController {
+public string sayHello(Model model)
+}

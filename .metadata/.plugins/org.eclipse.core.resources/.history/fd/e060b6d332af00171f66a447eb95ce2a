@@ -1,0 +1,5 @@
+package com.pluralsite.model;
+
+public class Customer {
+
+}

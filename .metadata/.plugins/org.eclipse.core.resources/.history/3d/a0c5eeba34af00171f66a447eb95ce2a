@@ -1,0 +1,15 @@
+package com.pluralsite.service;
+
+import java.util.List;
+
+import com.pluralsite.model.Customer;
+import com.pluralsite.repository.CustomerRepository;
+import com.pluralsite.repository.HibernateCustomerRepositoryImpl;
+
+public class CustomerServiceImpl {
+
+	private CustomerRepository customerRepository= new HibernateCustomerRepositoryImpl();
+	public List<Customer> findAll(){
+return customerRepository.findAll();
+	}
+}

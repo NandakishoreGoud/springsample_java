@@ -1,0 +1,10 @@
+1505132116744	Rename package 'modal'
+1505190910864	Rename type 'Journey'
+1505192224190	Delete element
+1505305332967	Rename type 'Utility'
+1505308186181	Move compilation unit
+1505308224371	Rename type 'Test'
+1505308247161	Move compilation unit
+1505308252135	Move compilation unit
+1505369395238	Rename field 'model'
+1505369404589	Rename local variable 'modelName'

@@ -1,0 +1,5 @@
+package com.pluralsite.repository;
+
+public class HibernateCustomerRepositoryImpl {
+
+}

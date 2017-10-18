@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	
+	<bean id="address" class="Address">
+		<property name="city" value="sholapur"></property>
+		<property name="state" value="karnataka"></property>
+		<property name="pincode" value="515"></property>
+		
+	</bean>
+
+	<bean id="emp1" class="Employee">
+		<!-- <constructor-arg value="12"></constructor-arg>
+		<constructor-arg value="abdullah"></constructor-arg> -->
+		<constructor-arg ref="address"></constructor-arg> 
+	 <!-- <property name="address" ref="address"></property> -->	
+	</bean> 
+</beans>
